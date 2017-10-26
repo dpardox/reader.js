@@ -1,0 +1,29 @@
+{
+  "name": "reader",
+  "title": "Reader",
+  "version": "0.1.0",
+  "author": "Steven Pardo <dspardo6@gmail.com> (https://spardo6.com)",
+  "description": "Leer una imagen y mostrar una previsualización desde el navegador",
+  "main": "reader.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spardo6/reader"
+  },
+  "license": "MIT",
+  "keywords": [
+    "reader",
+    "image",
+    "browser",
+    "javascript"
+  ],
+  "bugs": {
+    "url": "https://github.com/spardo6/reader/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "reader.js",
+    "README.md"
+  ]
+}
