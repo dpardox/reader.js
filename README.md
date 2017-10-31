@@ -48,7 +48,7 @@ var formData = new FormData(form);
 
 $.ajax({
     url: 'http://domain.com/api/service',
-    type: 'POST', // Versiones antiguas
+    type: 'POST', // Para jQuery < 1.9
     method: 'POST',
     data: formData,
     cache: false,
