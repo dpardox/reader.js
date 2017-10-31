@@ -35,3 +35,30 @@ var reader = new app.Reader('#trigger', '#input', {
     filename: '#filename'
 });
 ```
+
+## Subir el formulario con la imagen
+
+### jQuery
+
+Serializar el formulario con `formData`:
+
+```js
+var form = document.querySelector('#form');
+var formData = new FormData(form);
+
+$.ajax({
+    url: 'http://domain.com/api/service',
+    type: 'POST', // Versiones antiguas
+    method: 'POST',
+    data: formData,
+    cache: false,
+    contentType: false,
+    processData: false,
+    success: function (response) {
+        console.log('Response: ', response);
+    },
+    error: function () {
+        console.error('Ocurrió un error');
+    }
+});
+```
